@@ -1,0 +1,11 @@
+include 'framework-bom'
+
+include 'launch4j-loader'
+include 'launch4j-maven-plugin'
+include 'launch4j-gradle-plugin'
+
+rootProject.name = 'launch4j'
+rootProject.children.each {project ->
+    project.buildFileName = "${project.name}.gradle"
+}
+
