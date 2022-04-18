@@ -4,8 +4,13 @@ include 'launch4j-loader'
 include 'launch4j-maven-plugin'
 include 'launch4j-gradle-plugin'
 
+
+include 'launch4j-zoo'
+
 rootProject.name = 'launch4j'
 rootProject.children.each {project ->
     project.buildFileName = "${project.name}.gradle"
 }
+include 'launch4j-zoo:eagle'
+findProject(':launch4j-zoo:eagle')?.name = 'eagle'
 

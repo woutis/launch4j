@@ -1,0 +1,16 @@
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-gradle-plugin:2.6.6'
+//    runtime 'org.springframework.boot:spring-boot-buildpack-platform:2.6.6'
+//    runtime 'org.springframework.boot:spring-boot-loader-tools:2.6.6'
+//    runtime 'io.spring.gradle:dependency-management-plugin:1.0.11.RELEASE'
+//    runtime 'org.apache.commons:commons-compress:1.21'
+//    runtime 'org.springframework:spring-core:5.3.18'
+
+//    implementation 'org.springframework.boot:spring-boot-gradle-plugin:2.6.6'
+//    runtime 'org.springframework.boot:spring-boot-buildpack-platform:2.6.6'
+//    runtime 'org.springframework.boot:spring-boot-loader-tools:2.6.6'
+//    runtime 'org.apache.maven.shared:maven-common-artifact-filters:3.2.0' // exclusion cdi-api:javax.enterprise / javax.inject:javax.inject
+//    runtime 'org.apache.maven:maven-plugin-api:3.6.3' // exclusion cdi-api:javax.enterprise / javax.inject:javax.inject
+//    runtime 'org.sonatype.plexus:plexus-build-api:0.0.7'
+//    implementation 'org.apache.maven.plugins:maven-shade-plugin:3.2.4' // exclusion cdi-api:javax.enterprise / javax.inject:javax.inject
+}
